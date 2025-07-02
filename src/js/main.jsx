@@ -13,6 +13,7 @@ import Home from './components/Home';
 import NavBar  from './components/Navbar';  
 import Jumbotron from './components/Jumbotron';
 import Cards from './components/Cards';
+import Footer from './components/Footer';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -20,7 +21,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <NavBar />
     <Jumbotron />
     <Cards />
-    /* <Home/> */
+    <Footer />
+
     
   </React.StrictMode>,
 )
